@@ -1,0 +1,33 @@
+
+OBJECTS EXERCISES
+1. const car = {
+  brand : 'Volvo',
+  model : 'EX90'
+};
+
+There are two correct syntax to alert Volvo, name them
+const person = {
+  firstname: 'Jane',
+  lastname: 'Doe',
+  fullname: function() {
+    return this.firstname + ' ' + this.lastname;
+  }
+};
+2. How many properties does the object have? Name them
+2. const person = {
+  firstname: 'Jane',
+  lastname: 'Doe',
+  fullname: function() {
+    return this.firstname + ' ' + this.lastname;
+  }
+};
+How many methods does the object have?, Name them?
+
+3. a) Create a person (firstName, lastName, age) object, with a nested address (city, street, zipCode) object
+ b) Add a getFullName method on the person object that prints out the first name and last name
+ c) Access and display the address properties
+ d) Display the full name of Person object using the method you have created
+ 
+4. Delete the address property in Person
+  b) Access the address property, what does it display? Explain
+  
