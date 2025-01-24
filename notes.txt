@@ -1,0 +1,85 @@
+METHODS
+Properties defined using this syntax are own properties of the created object, and they are configurable, enumerable, and writable just like normal properties
+Only function defined as methods have access to the super keyword
+
+JAVASCRIPT functions
+A function is a block of code written to perform some specific set of tasks
+We can define the function using funtion keyword, followed by the name and optional parameters
+The body of the function is enclosed in curly braces
+
+Work Around:
+The function is executed when something calls/invokes it
+The name may contain letters, digits, dollar signs and underscore
+Parameters are listed inside round parenthesis after the name of the function
+Arguements are values a function receives when it is invoked
+When the control reaches the return statement, JS will stop executing and the value is returned to the caller
+
+JAVASCRIPT METHODS
+A javascript method is a property of an object that contains a function definition
+MEthods are functions stores as object properties
+
+WORK AROUND:
+Actions that can be perfomed on objects are what we term Javascript methods
+The object can also be called without using parenthesis
+This refers to the owner object in a method
+
+DIFFERENNCE BETWEEN FUNCTION AND METHOD
+function
+A Javascript function is a block of code designed to perfom a particular tasks
+The Javascript method is an object property that has a function value
+
+Syntax of function
+fn a() {}
+syntax of method
+a {
+    b: fn() {}
+}
+
+A function can pass the data that is operated and may return the data
+The method operates the data contained in a class
+
+Data passed to a function is explicit
+A method implicitly passes the object on which it was called
+
+Data passed to a function is explicit
+A method implicitly passes the obejct on which it was called
+
+Data passed to a function is explicit
+A method implicitly passes the object on which it was called
+
+A function lives on its own
+A method is a function associated with an object property
+
+A function can be called directly by its name
+A method consists of a code that can be called by the name of its objects and its method name using fotra notations or square brack notation
+
+ 
+ Template literals are literals delimited with backtick characters, allowing for multi-line strings, string interpolation with embedded expression and special constructs called tagged templates
+ Templace literals are sometimes infomrally called template strings, because they are used mostly for string interpolation ( to create strings by doing substitution of placehholders)
+ Template literals are enclosed by backtick character instead of double or single quotes
+ Along with having normal strings, template literals can also contain other parts called placeholders, which are embedded expressions delimited by a dollar sign and curly braces ${expreesion}
+ The strings and placeholders get passed to a function, either a default function or a function you supply
+ The default function when you dont supply your own just perfoms string interpolation to do substitution of the placeholders and then concatenate the parts into a single string
+Without template literals, when you want to combine output from expressions with strings, you'd concatenate them using the addition operator +
+This can be hard to read- especially when you have multiple expressions
+With template literals, you can avoid the concatenation operator, and improve the readability of your code - y using placeholders of the form ${expression} to perform substitutions for embedded expressions
+In certain cases, nesting a template is the easiest and perhapds more readbale way to ahve configurable strings
+Within a backtick-delimited template, it is simple to allow inner backticks by using them inside an ${expression} placeholder within the template
+A more advanced form of template literals are tagged templates
+Tags allow you to parse literals with a function
+
+
+ JSON
+ Javascript Object Notation is a standard text-based format for representing structured data based on Javascript object syntaz
+ It is commonly used for transimitting data in web application (eg. sending some data from the server to the client, so it can be displayed on a web page or vice versa)
+ JSON exists as a string, useful when you want to transmit data across a netowrk
+ It needs to be converted to a native Javascript object when you want to access the data
+ Javascript provides a global JSON object that has methods available for converting between the two
+ A json string can be stored in its own file, which is basically just a text file with an extension of .json and a MIME type of application/json
+You can include the same basic data types inside JSON as you can in a stnadard Javascript obekct - strings, numbers, arrays, booleans, and other object liberals
+JSON is purely a string with a specified data format - it contains only properties, no emthods
+JSON requires double quotes to be used around strings and property names. single quotes are not valid other than surrounding the entire JSON stringg
+Even a single misplaced comma or colon can cause a JSON file to go wrong, and not work. You should be careful to validate any data you are attempting to use ( although computer genrated JSON is less likely to include errors, as long as the generator program is working correctly) You can validate JSON using an application like JSONLit
+JSON can actually take the form of any data type that is valid for inclusion inside JSON, not just arrays or objects
+UNlike in Javacript code, in which objet properties may be unquoted, in JSON only quted strings may be used as properties
+'

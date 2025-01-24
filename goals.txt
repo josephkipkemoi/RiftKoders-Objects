@@ -1,15 +1,10 @@
-By End of this lesson:
-Able to define Objects
-Create Objects
-Accessing Object Properties
-Changing property name values
-Adding new properties
-Deleting Properties
-Enumerating object properties
-
 
 By end of this lesson:
 methods
+bracket notation
+string interpolation / Template literals/Template strings-
 destructuring
 Optional property Access
+Deleting Properties
+Enumerating object properties
 JSON

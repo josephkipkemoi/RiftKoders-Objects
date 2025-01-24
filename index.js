@@ -10,10 +10,12 @@ console.log("OBJECTS IN JAVASCRIPT")
 //     */
 //     getName() {
 //         console.log(`Hello ${this.name}`)
-//     }                                              
+//     }                                               
+
 //     setName(newName) {
 //         this.name = newName
 //     }
+
 // }
 
 // let person1 = new Person("Samson")
@@ -21,3 +23,11 @@ console.log("OBJECTS IN JAVASCRIPT")
 // person1.setName("Delilah")
 // person1.getName()
 // // obsfuscation
+
+const a = {
+    er: 's',
+    ed: "ss",
+    pol: "efs"
+}
+Object.keys(a).forEach(e => console.log(e))
+Object.values(a).forEach(e => console.log(e))
